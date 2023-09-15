@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" style="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRAInvoice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style type="text/css">
+        @page {
+            size: A4 portrait;
+            margin: 0mm 0mm;
+        }
+        
+        body {
+            -webkit-print-color-adjust: exact;
+            margin: 0px;
+            padding: 0px;
+        }
+          p {
+              margin: 0;
+              text-align: left;
+          }
+  
+          table {
+            border-collapse: separate;
+          border-spacing: 0;
+          padding: 0;
+          width: 100%;
+          margin: 0;
+          table-layout: auto;
+          
+          }
+  
+          td,
+          th {
+              padding: 0px;
+              vertical-align: middle;
+          }
+          ul{
+            padding :0px;
+            margin: 0px;
+            list-style-type: none;
+            list-style: none;
+          }
+   </style>
+</head>
+<body style="">
+  <div style="position: relative;  padding: 20px 0px 30px 40px;background: #FFF;">
+                          <table style="font-family: 'Inter', sans-serif; padding: 0px;width: 100%;border-collapse: collapse; border-spacing: 0;">
+                              <!--Logo-->
+                              <tr>
+                                  <td style="padding-bottom: 52px;padding-right: 40px;">
+                                      <table style="width: 100%;" >
+                                              <tr>
+                                                      <td  style="text-align: left; padding-top:16px; vertical-align: top;"> 
+                                                        <img src="Assets/InvoiceQrCode.png" alt="QrCode" style="width: auto;height:97px;">
+                                                      </td>
+                                                      <td  style="text-align: center;border: none;"> 
+                                                        <img src="Assets/Logo.png" alt="QrCode" style="width: auto;height:107px;display: inline-block;border:none;">
+                                                        <p style="color: #000;text-align: center;font-family: Inter;font-size: 16px;font-style: normal;font-weight: 400;line-height: 110%;padding-top: 8px;">THE REPUBLIC OF SOUTH SUDAN</p>
+                                                        <P style="color: #000; text-align: center; font-family: Inter; font-size: 24px; font-style: normal; font-weight: 500; line-height: 95.5%; padding-top: 20px;">NATIONAL REVENUE AUTHORITY</P>
+                                                      </td>
+                                                      <td style="text-align: right;vertical-align: top;padding-top: 16px;">
+                                                        <button style="display: inline-block;padding: 8px 30px; flex-shrink: 0;background: #000;"><p style="color: #FFF;text-align: center;font-size: 20px;font-style: normal;font-weight: 400;line-height: 116.5%; ">INVOICE</p></button>
+                                                      </td> 
+                                                      
+                                              </tr>
+                                      </table>
+                                   </td>
+                              </tr>
+                              <!--1-->
+                              <tr>
+                                  <td style="padding-right: 40px;padding-bottom:23px ;">
+                                      <table style="width: 100%;background: #DFE9F9;padding: 8px 0px 8px 18px;" >
+                                              <tr>
+                                                      <td style="text-align: left;">
+                                                          <p style="color: #000;font-family: Inter;font-size: 20px;font-style: normal;font-weight: 700;line-height: 116.5%; ">Electronic Tax Invoice</p>
+                                                      </td>
+                                              </tr>
+                                      </table>
+                                  </td>
+                              </tr>
+                              <!--2-->
+                              <tr>
+                                <td style="padding-right: 40px;padding-bottom:30px;">
+                                    <table style="width: 70%;padding:0px 0px 0px 18px;" >
+                                            <tr>
+                                                    <td style="text-align: left;">
+                                                      <p style="color: #000;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 400;line-height: 110%;padding-bottom: 6px;">Invoice Number</p>
+                                                      <p style="color: #000;font-family: Inter;font-size: 18px;font-style: normal;font-weight: 700;line-height: 110%; ">INV-5678H</p>
+                                                    </td>
+                                                    <td style="text-align:center;">
+                                                      <p style="color: #000;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 400;line-height: 110%;padding-bottom: 6px;">Period</p>
+                                                      <p style="color: #000;font-family: Inter;font-size: 18px;font-style: normal;font-weight: 700;line-height: 110%; ">June 2023</p>
+                                                    </td>
+                                                    <td style="text-align:right;">
+                                                      <p style="color: #000;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 400;line-height: 110%;padding-bottom: 6px;">Invoice Date</p>
+                                                      <p style="color: #000;font-family: Inter;font-size: 18px;font-style: normal;font-weight: 700;line-height: 110%; ">12 Jan 2023</p>
+                                                    </td>
+                                            </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!--3-->
+                            <tr>
+                              <td style="padding-right: 40px;padding-bottom:39px;">
+                                  <table style="width: 100%;padding:17px 0px 0px 18px;border-top: 1px solid #E1E2E3;" >
+                                          <tr>
+                                                  <td style="text-align: left;">
+                                                      <p style="color: #000;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 700;line-height: 110%;padding-bottom: 8px;">Invoice to: </p>
+                                                      <ul style="color: #000;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 400;line-height: normal;">
+                                                        <li>IGNITE ACCOUNTING AND CONSULTING LTD N/A</li>
+                                                        <li style="padding-bottom: 8px;">Email: commandomalou@gmail.com | Phone: +211925499687</li>
+                                                        <li>Tin:  BT345678988</li>
+                                                      </ul>
+                                                  </td>
+                                                  <td style="text-align: left;">
+                                                    <p style="color: #000;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 700;line-height: 110%;padding-bottom: 8px;">Invoice to: </p>
+                                                    <ul style="color: #000;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 400;line-height: normal;">
+                                                      <li>KARABAU GOODAN LTD</li>
+                                                      <li style="padding-bottom: 8px;">Email: commandomalou@gmail.com | Phone: +211925499687</li>
+                                                      <li>Tin:  BT345678988</li>
+                                                    </ul>
+                                                </td>
+                                          </tr>
+                                  </table>
+                              </td>
+                          </tr>
+                          <!--1-->
+                          <tr>
+                            <td style="padding-right: 40px;">
+                                <table style="width: 100%;padding: 10px 0px 5px 18px;border-top: 1px solid #2B2B2B;" >
+                                        <tr>
+                                                <td style="text-align: left;">
+                                                   <p style="color: #2B2B2B;font-size: 12px;font-style: normal;font-weight: 700;line-height: 20.5px; ">Items </p>
+                                                </td>
+                                        </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!--1-->
+                        <tr>
+                          <td style="padding-right: 40px;">
+                              <table style="width: 100%;padding: 12px 0px 24px 30px;border-top: 1px solid #E1E2E3;" >
+                                      <tr>
+                                              <td style="width:14% ;">
+                                                 <p style="color: #2B2B2B; font-family: Inter; font-size: 12px; font-style: normal; font-weight: 900; line-height: 20.5px;text-transform: uppercase;">Number </p>
+                                              </td>
+                                              <td style="width:36% ;">
+                                                 <p style="color: #2B2B2B; font-family: Inter; font-size: 12px; font-style: normal; font-weight: 900; line-height: 20.5px;text-transform: uppercase;">DESCRIPTION OF GOODS/SERVICES</p>
+                                              </td>
+                                              <td style="width:11% ;">
+                                                 <p style="color: #2B2B2B; font-family: Inter; font-size: 12px; font-style: normal; font-weight: 900; line-height: 20.5px;text-transform: uppercase; text-align: end;">QUANTITY</p>
+                                              </td>
+                                              <td style="width:22%;">
+                                                 <p style="color: #2B2B2B; font-family: Inter; font-size: 12px; font-style: normal; font-weight: 900; line-height: 20.5px;text-transform: uppercase; padding-left:60px;">UNIT COST</p>
+                                              </td>
+                                              <td style="width:13% ;">
+                                                 <p style="color: #2B2B2B; font-family: Inter; font-size: 12px; font-style: normal; font-weight: 900; line-height: 20.5px;text-transform: uppercase;">TOTAL</p>
+                                              </td>
+                                      </tr>
+                              </table>
+                          </td>
+                      </tr>
+                      <!--1-->
+                      <tr>
+                        <td style="padding-right: 40px;">
+                            <table style="width: 100%;background: #F2F7FF;padding: 6px 0px 6px 30px;" >
+                                    <tr>
+                                            <td style="width:14%;"> 
+                                                <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">1</p>
+                                            </td>
+                                            <td style="width:36% ;"> 
+                                                <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">Mac Book Pro 2020</p>
+                                            </td>
+                                            <td style="width:11% ;"> 
+                                                <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;text-align: right;">1</p>
+                                            </td>
+                                            <td style="width:22% ;"> 
+                                                <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px; padding-left:60px;">USD 18.00</p>
+                                            </td>
+                                            <td style="width:13% ;"> 
+                                                <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">USD 18.00</p>
+                                            </td>
+                                    </tr>
+                            </table>
+                        </td>
+                    </tr>
+                     <!--1-->
+                     <tr>
+                      <td style="padding-right: 40px;">
+                          <table style="width: 100%;padding: 6px 0px 6px 30px;" >
+                                  <tr>
+                                          <td style="width:14%;"> 
+                                              <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">2</p>
+                                          </td>
+                                          <td style="width:36% ;"> 
+                                              <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">HP laptop </p>
+                                          </td>
+                                          <td style="width:11% ;"> 
+                                              <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;text-align: right;">2</p>
+                                          </td>
+                                          <td style="width:22% ;"> 
+                                              <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px; padding-left:60px;">USD 18.00</p>
+                                          </td>
+                                          <td style="width:13% ;"> 
+                                              <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">USD 18.00</p>
+                                          </td>
+                                  </tr>
+                          </table>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td style="padding-right: 40px;">
+                        <table style="width: 100%;padding: 6px 0px 6px 30px;background: #F2F7FF;" >
+                                <tr>
+                                        <td style="width:14%;"> 
+                                            <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">3</p>
+                                        </td>
+                                        <td style="width:36% ;"> 
+                                            <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">Dell desktop  </p>
+                                        </td>
+                                        <td style="width:11% ;"> 
+                                            <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;text-align: right;">7</p>
+                                        </td>
+                                        <td style="width:22% ;"> 
+                                            <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px; padding-left:60px;">USD 18.00</p>
+                                        </td>
+                                        <td style="width:13% ;"> 
+                                            <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">USD 18.00</p>
+                                        </td>
+                                </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!--  -->
+                <tr>
+                  <td style="padding-right: 40px;">
+                      <table style="width: 100%;padding: 6px 0px 6px 30px;" >
+                              <tr>
+                                      <td style="width:14%;"> 
+                                          <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">4</p>
+                                      </td>
+                                      <td style="width:36% ;"> 
+                                          <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">Lenovo laptop   </p>
+                                      </td>
+                                      <td style="width:11% ;"> 
+                                          <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;text-align: right;">95</p>
+                                      </td>
+                                      <td style="width:22% ;"> 
+                                          <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px; padding-left:60px;">USD 18.00</p>
+                                      </td>
+                                      <td style="width:13% ;"> 
+                                          <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">USD 18.00</p>
+                                      </td>
+                              </tr>
+                      </table>
+                  </td>
+              </tr>
+              <!--  -->
+              <tr>
+                <td style="padding-right: 40px;">
+                    <table style="width: 100%;padding: 6px 0px 6px 30px;background: #F2F7FF;" >
+                            <tr>
+                                    <td style="width:14%;"> 
+                                        <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">5</p>
+                                    </td>
+                                    <td style="width:36% ;"> 
+                                        <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">Lenovo Desktop  </p>
+                                    </td>
+                                    <td style="width:11% ;"> 
+                                        <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;text-align: right;">1</p>
+                                    </td>
+                                    <td style="width:22% ;"> 
+                                        <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px; padding-left:60px;">USD 18.00</p>
+                                    </td>
+                                    <td style="width:13% ;"> 
+                                        <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">USD 18.00</p>
+                                    </td>
+                            </tr>
+                    </table>
+                </td>
+            </tr>
+            <!--  -->
+            <tr>
+              <td style="padding-right: 40px;">
+                  <table style="width: 100%;padding: 6px 0px 6px 30px;" >
+                          <tr>
+                                  <td style="width:14%;"> 
+                                      <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">6</p>
+                                  </td>
+                                  <td style="width:36% ;"> 
+                                      <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">Toshiba Cables </p>
+                                  </td>
+                                  <td style="width:11% ;"> 
+                                      <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;text-align: right;">4</p>
+                                  </td>
+                                  <td style="width:22% ;"> 
+                                      <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px; padding-left:60px;">USD 18.00</p>
+                                  </td>
+                                  <td style="width:13% ;"> 
+                                      <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 600;line-height: 20px;">USD 18.00</p>
+                                  </td>
+                          </tr>
+                  </table>  
+              </td>
+          </tr>
+          <!--Declaration  -->
+          <tr>
+            <td style="padding-right: 40px;padding-top: 66px; padding-bottom: 12px;">
+                <table style="width: 100%;padding: 12px 0px 13px 8px;border-radius: 15px;background: #F2F7FF;" >
+                        <tr>
+                                <td style="">
+                                    <p style="color: #2B2B2B;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 700;line-height: 15.5px;"> Declaration:<br> 
+                                       <span style="font-weight: 400;font-size: 11px;"> We declare that this invoice shows the actual price of the goods/services described and that all particulars are true and correct.</span></p>
+                                </td>
+                                
+                        </tr>
+                </table>
+            </td>
+        </tr>
+        <!--2-->
+        <tr>
+          <td style="padding-right: 40px; ">
+              <table style="width: 100%;padding:44px 0px 0px 0px;border-top: 1px solid #E1E2E3" >
+                      <tr>
+                              <td style="text-align: left;">
+                                <p style="color: #000;font-family: Inter;font-size: 12px;font-style: normal;font-weight: 400;line-height: 110%;padding-bottom: 6px;">Invoice Created on</p>
+                                <p style="color: #000;font-family: Inter;font-size: 18px;font-style: normal;font-weight: 700;line-height: 110%; ">12 Jan 2023 23:09:20</p>
+                              </td>
+                      </tr>
+              </table>
+          </td>
+      </tr>
+      <!--2-->
+      <tr>
+        <td style="padding-right: 40px;">
+            <table style="width: 100%;padding:16px 0px 0px 0px;" >
+                    <tr>
+                            <td style="text-align:right;width: 86%;">
+                              <p style="color: #1B325E;font-family: Helvetica Now Text ;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;display: inline-block;">Proudly South Sudanese</p>
+                            </td>
+                            <td style="text-align: right;">
+                              <img src="Assets/SSFlag.png" alt="" style="display: inline-block;height: 32px;width: auto;">
+                            </td>
+                    </tr>
+            </table>
+        </td>
+    </tr>
+                              
+                          </table>
+                           <!--Background-->
+  <div style="width:100%; height:66%;  position: absolute;z-index: 1; bottom: 12%; right:1%; top: 15%;background-image: url(Assets/InvoiceBackground.svg);background-position: top center;background-repeat: no-repeat;background-size: contain;background-color: transparent; text-align: center;">
+</div>
+  </div>
+</body>
+</html>
